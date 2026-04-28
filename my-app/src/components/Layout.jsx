@@ -67,12 +67,9 @@ function Layout({ children }) {
       </nav>
 
       {/* Main Content */}
-           
-<main className="min-h-screen bg-gray-100 flex justify-center items-start py-10">
-  <div className="w-full max-w-2xl px-4">
-    {children}
-  </div>
-</main>
+      <main className="flex-1 w-full max-w-[1126px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+        {children}
+      </main>
     </div>
   );
 }
